@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewKindness"
+        android:layout_width="match_parent"
+        android:layout_height="366dp"
+        android:contentDescription="@string/todos"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/kindness" />
+
+    <ImageView
+        android:id="@+id/imageViewRectangle"
+        android:layout_width="match_parent"
+        android:layout_height="671dp"
+        android:contentDescription="@string/RectangleImage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewKindness"
+        app:layout_constraintVertical_bias="0.671"
+        app:srcCompat="@drawable/rectangle" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/login_button"
+        android:layout_width="342dp"
+        android:layout_height="57dp"
+        android:background="@drawable/rectangle_button"
+        android:text="@string/login_button"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#3D8AF7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewRectangle"
+        app:layout_constraintVertical_bias="0.884" />
+
+    <ImageView
+        android:id="@+id/imageViewMrgsLogo"
+        android:layout_width="231dp"
+        android:layout_height="246dp"
+        android:layout_marginTop="172dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewRectangle"
+        app:srcCompat="@drawable/mrgs_logo" />
+
+    <TextView
+        android:id="@+id/textViewSignIn"
+        android:layout_width="87dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="148dp"
+        android:text="@string/text_signup"
+        android:textColor="#35424A"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewRectangle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

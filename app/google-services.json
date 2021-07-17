@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "982775986069",
+    "project_id": "mrgs-study-app-33d6f",
+    "storage_bucket": "mrgs-study-app-33d6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982775986069:android:9a12815b342f9b398f289c",
+        "android_client_info": {
+          "package_name": "com.example.study_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982775986069-thlmo9f8k920fco5pfqqq49581jla7t1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.study_application",
+            "certificate_hash": "d219f988e2716acbc194a0a81dc1baf79e1e0f7d"
+          }
+        },
+        {
+          "client_id": "982775986069-jv00kvdp2ogkdps39vgo9mlqnb93urrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCGkQWFCC2tAcxQOiC8loc8NWYhJBXn5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982775986069-jv00kvdp2ogkdps39vgo9mlqnb93urrh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

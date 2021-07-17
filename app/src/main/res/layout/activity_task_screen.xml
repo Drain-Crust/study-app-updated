@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".TaskCreateScreen">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="414dp"
+        android:layout_height="518dp"
+        android:layout_marginEnd="1dp"
+        android:contentDescription="@string/background_triangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/timerBar"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/triangle_image" />
+
+    <ProgressBar
+        android:id="@+id/timerBar"
+        android:layout_width="match_parent"
+        android:layout_height="444dp"
+        android:indeterminateOnly="false"
+        android:progressDrawable="@drawable/timer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:progress="60" />
+
+    <TextView
+        android:id="@+id/BreakTimerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondary_text"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="@+id/timerBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/timerBar"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/timeBarText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/primary_text"
+        android:textSize="96sp"
+        app:layout_constraintBottom_toBottomOf="@+id/timerBar"
+        app:layout_constraintEnd_toEndOf="@+id/timerBar"
+        app:layout_constraintStart_toStartOf="@+id/timerBar"
+        app:layout_constraintTop_toTopOf="@+id/timerBar" />
+
+    <Button
+        android:id="@+id/StartTimer"
+        android:layout_width="319dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/rectangle_button"
+        android:backgroundTint="@color/white"
+        android:text="@string/StartTaskTextView"
+        android:textColor="@color/light_blue_primary"
+        app:layout_constraintEnd_toEndOf="@+id/timerBar"
+        app:layout_constraintTop_toBottomOf="@+id/timerBar" />
+
+    <Button
+        android:id="@+id/StopTimer"
+        android:layout_width="319dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/rectangle_button"
+        android:backgroundTint="@color/white"
+        android:text="@string/StopStartTaskTextView"
+        android:textColor="@color/light_blue_primary"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/timerBar"
+        app:layout_constraintTop_toBottomOf="@+id/timerBar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

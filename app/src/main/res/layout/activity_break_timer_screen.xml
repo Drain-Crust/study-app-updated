@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="299dp"
+    android:layout_height="479dp"
+    android:layout_gravity="center"
+    android:backgroundTint="@color/white"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp"
+    tools:context=".BreakTimerScreen">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:background="@drawable/rectangle_button"
+            android:backgroundTint="@color/light_blue_primary"
+            android:text="@string/textViewBreakTimeOptionContinue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/progressBreakBar"
+            app:layout_constraintVertical_bias="0.725" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:background="@drawable/rectangle_button"
+            android:backgroundTint="@color/light_blue_primary"
+            android:text="@string/textViewBreakTimeOptionNo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/progressBreakBar"
+            app:layout_constraintVertical_bias="0.725" />
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:background="@drawable/rectangle_button"
+            android:backgroundTint="@color/light_blue_primary"
+            android:text="@string/textViewBreakTimeOptionYes"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.716" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewBreakTimeText"
+            android:textColor="@color/primary_text"
+            app:layout_constraintBottom_toTopOf="@+id/progressBreakBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/progressBreakBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#000000"
+            android:textSize="96sp"
+            app:layout_constraintBottom_toTopOf="@+id/startButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.698" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

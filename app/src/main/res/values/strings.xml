@@ -1,0 +1,92 @@
+<resources>
+    <!-- activity main strings -->
+    <string name="kindness_photo">kindness</string>
+    <string name="login_button">Sign In</string>
+    <string name="text_email">Email</string>
+    <string name="text_password">Password</string>
+    <string name="text_signup">Sign In</string>
+    <string name="password_and_email_hint">Type Here</string>
+    <string name="Mrgs_Logo">mrgs logo</string>
+    <string name="curved_rectangle_image">rectangle</string>
+    <string name="kindness_image">kindness_image</string>
+    <!-- activity main strings -->
+
+
+    <!-- home page -->
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <!-- home page end -->
+
+    <!-- register page -->
+    <string name="username">Type Here</string>
+    <string name="usernameText">Username</string>
+    <string name="confirmationText">Confirm Password</string>
+    <string name="passwordText">Password</string>
+    <string name="registerButton">Button</string>
+    <string name="Email">Type Here</string>
+    <string name="emailText">Email</string>
+
+    <string name="RegistrationText">Sign up</string>
+    <string name="registerEmail">Type Here</string>
+    <string name="taskBar">taskBar</string>
+    <!-- register page end -->
+
+    <!-- Task Create page -->
+    <string name="create">Create</string>
+    <!-- Task Create page end -->
+
+
+    <string name="app_name">Study Application</string>
+
+    <string name="back_button_home_screen">Back</string>
+    <string name="menu_button">menu</string>
+    <string name="task_button">Create</string>
+    <string name="plant_button">Plant</string>
+
+    <string name="progression_button">Progress</string>
+    <string name="its_a_plant">its a plant</string>
+    <string name="RectangleImage">Rectangle</string>
+    <string name="todos">TODO</string>
+    <string name="todo">TODO</string>
+
+    <string name="TaskSpecification">Specification</string>
+    <string name="TaskName">Task Name</string>
+    <string name="ReadButton">Read</string>
+    <string name="SymbolForCreate">+</string>
+    <string name="CardViewStart">Start</string>
+
+    <string name="task_time">Task Time</string>
+    <string name="task_name">Task Name</string>
+    <string name="task_specification">Task Specification</string>
+    <string name="tasks">Current Tasks</string>
+    <string name="search">Search</string>
+    <string name="main_page">Main Page</string>
+    <string name="account">Account</string>
+    <string name="logout">Logout</string>
+    <string name="ArrowAnimationImageView">arrowAnimationImage</string>
+    <string name="TextViewSpecifications">Specifications</string>
+    <string name="TextViewCompleted">Completed</string>
+    <string name="TextViewStatus">Status:</string>
+    <string name="PlaceHolderSpecifications">SpecificationsText</string>
+    <string name="ButtonTaskStart">Start</string>
+    <string name="TextViewCreateButton">+</string>
+    <string name="TaskListNameTextView">Task List</string>
+    <string name="TaskCompletion">TaskCompletion</string>
+    <string name="TaskTime">TaskTime</string>
+    <string name="NavigationImage">NavigationImage</string>
+    <string name="StartTaskTextView">Start</string>
+    <string name="StopStartTaskTextView">Stop</string>
+    <string name="background_triangle">backgroundTriangle</string>
+    <string name="test_text">Test text</string>
+    <string name="TestEmailText">test@testText.com</string>
+    <string name="breakEnd">Break Has Ended</string>
+    <string name="textViewBreakTimeOptionYes">Yes</string>
+    <string name="textViewBreakTimeOptionNo">NO</string>
+    <string name="textViewBreakTimeOptionContinue">Continue</string>
+    <string name="textViewBreakTimeText">Take A Break</string>
+    <string name="confirmDeletion">Confirm</string>
+    <string name="deleteButtonText">-</string>
+    <string name="confirmDeleteText">x</string>
+
+
+</resources>
